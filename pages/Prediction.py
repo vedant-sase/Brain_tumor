@@ -23,7 +23,7 @@ def predict_class(image, model):
 
 model = load_model()
 
-file = st.file_uploader("Upload an image of a MRI scan of Brain", type=["jpg", "png"])
+file = st.file_uploader("Upload an image of a MRI scan of Brain", type=["jpg", "png", "jpeg"])
 
 
 if file is None:
