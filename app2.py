@@ -6,6 +6,7 @@ st.set_page_config(
     page_title="Multipage App",
     page_icon="👋",
 )
+st.header('VITASCAN-SMART-O-THON')
 st.title('Brain tumour detection')
 st.write('A brain tumor is an abnormal growth of cells in the brain. It can originate from brain cells or cells that have spread from other parts of the body to the brain. Brain tumors can be either benign (non-cancerous) or malignant (cancerous).')
 st.write("We are going to predict 3 possible tumour that are 1)Glioma Tumor 2)Meningioma Tumor 3)No Tumor 4)Pituitary Tumor")
